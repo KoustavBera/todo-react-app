@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-blur-corners {
+  box-shadow: 0 0 15em 10em rgba(4, 4, 4, 0.9) inset;
+}
+.gloria-hallelujah-regular {
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  font-family: "Gloria Hallelujah";
+}
+h2 {
+  font-family: "Gloria Hallelujah";
+}
